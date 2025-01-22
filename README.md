@@ -26,7 +26,7 @@
 
 | 微調腳本 |
 | -------- |
-| [LinuxMint Cinnamon](https://github.com/samwhelp/linuxmint-cinnamon-adjustment/tree/main/prototype/main/) |
+| [Linux Mint Cinnamon Config](https://github.com/samwhelp/linuxmint-cinnamon-adjustment/tree/main/prototype/main/) |
 
 
 
