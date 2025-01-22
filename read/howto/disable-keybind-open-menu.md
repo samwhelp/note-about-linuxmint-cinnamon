@@ -100,7 +100,7 @@ Cinnamon 6.4.6
 
 | 相關議題 |
 | ------- |
-| [設定 Mouse Button Modifier](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-mouse-button-modifier.html) |
+| [設定「Mouse Button Modifier」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-mouse-button-modifier.html) |
 
 
 
