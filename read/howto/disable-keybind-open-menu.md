@@ -9,15 +9,60 @@ parent: 如何
 # 停用按鍵綁定「Super_L」開啟「Menu」
 
 
+## 主題
+
+* [設定檔路徑](#設定檔路徑)
+* [設定方式](#設定方式)
+
+
+
+
+## 設定檔路徑
+
+舊版的設定檔路徑，放在「`~/.cinnamon/configs/menu@cinnamon.org/0.json`」
+
+新版的設定檔路徑，改到「`~/.config/cinnamon/spices/menu@cinnamon.org/0.json`」
+
+撰寫此文，採用的版本
+
+``` sh
+cinnamon --version
+```
+
+顯示
+
+```
+Cinnamon 6.4.6
+```
+
+
 
 
 ## 設定方式
 
-按鍵綁定「Super_L」開啟「Menu」的設定，
 
-儲存在「`~/.cinnamon/configs/menu@cinnamon.org/0.json`」
+### 圖形介面操作
 
-其中有一段「設定片段」如下
+除了可以在「下方 Panel」的「Menu Icon」按下「滑鼠右鍵」出現一個「選單」，選擇「Configure」。
+
+就會出現「Menu 設定對話框」。
+
+可以找到「`Behvior / Keyboard shortcut to open and close the menu`」，
+
+預設是綁定「`Super_L`」和「`Super_R`」。
+
+可以按下「該按鈕」後，假設要改成「`<Alt>F1`」，就直接按下「`<Alt>F1`」。
+
+若要「清除綁定」，則是按下「該按鈕」後，按下「`Backspace`」，就會變成「`unassigned`」。
+
+
+### 修改設定檔
+
+按鍵綁定「`Super_L`」開啟「Menu」的設定，
+
+儲存在「「`~/.config/cinnamon/spices/menu@cinnamon.org/0.json`」這個檔案。
+
+其中有一段「設定片段」類似如下
 
 ``` json
     "overlay-key": {
@@ -28,11 +73,23 @@ parent: 如何
     },
 ```
 
-預設值是「`Super_L`」和「`Super_R`」。
+其中「預設值」是「`Super_L`」和「`Super_R`」。
 
-設定值我設定為「`<Alt>F1`」，
+至於「設定值」我設定為「`<Alt>F1`」，
 
 也就是我改成按下「`Alt + F1`」才會開啟「主要功能選單」。
+
+
+> 若是要「清除綁定」，「設定片段」則是改成如下
+
+``` json
+    "overlay-key": {
+        "type": "keybinding",
+        "description": "Keyboard shortcut to open and close the menu",
+        "default": "Super_L::Super_R",
+        "value": "::"
+    },
+```
 
 
 
