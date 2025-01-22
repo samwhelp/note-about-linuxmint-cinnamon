@@ -35,8 +35,8 @@
 
 | [概覽](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/guide.html) |
 | ----------------- |
-| [如何微調](https://samwhelp.github.io/note-about-lingmo/read/guide/customize.html) |
-| [工作流程](https://samwhelp.github.io/note-about-lingmo/read/guide/workflow.html) |
+| [如何微調](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/guide/customize.html) |
+| [工作流程](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/guide/workflow.html) |
 
 
 
