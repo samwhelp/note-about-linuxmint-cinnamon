@@ -21,7 +21,8 @@ parent: 概覽
 ## 主題
 
 * [關於「Mouse Button Modifier」](#關於mouse-button-modifier)
-
+* [按鍵綁定](#按鍵綁定)
+* [常用工具](#常用工具)
 
 
 
@@ -45,3 +46,13 @@ parent: 概覽
 為了避免無謂的干擾，我會停用這個功能，
 
 請參考『[停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-menu.html)』這篇的說明。
+
+
+
+
+## 按鍵綁定
+
+
+
+
+## 常用工具
