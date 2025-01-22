@@ -13,6 +13,8 @@ parent: 如何
 
 * [設定檔路徑](#設定檔路徑)
 * [設定方式](#設定方式)
+* [相關議題](#相關議題)
+* [衝突綁定](#衝突綁定)
 
 
 
@@ -99,3 +101,63 @@ Cinnamon 6.4.6
 | 相關議題 |
 | ------- |
 | [設定 Mouse Button Modifier](https://samwhelp.github.io/note-about-cinnamon/read/howto/config-mouse-button-modifier.html) |
+
+
+
+
+## 衝突綁定
+
+> 上面提到我設定「`Alt + F1`」才會開啟「主要功能選單」。
+
+> 在「Cinnamon Desktop」，預設「`Alt + F1`」會觸發「`switch-to-workspace-up`」。
+
+可以執行下面指令，找到該設定。
+
+``` sh
+gsettings list-recursively | grep '<Alt>F1'
+```
+
+顯示
+
+```
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-up ['<Control><Alt>Up', '<Alt>F1']
+org.cinnamon.desktop.keybindings.wm toggle-maximized ['<Alt>F10']
+org.cinnamon.muffin.wayland.keybindings switch-to-session-1 ['<Primary><Alt>F1']
+org.cinnamon.muffin.wayland.keybindings switch-to-session-10 ['<Primary><Alt>F10']
+org.cinnamon.muffin.wayland.keybindings switch-to-session-11 ['<Primary><Alt>F11']
+org.cinnamon.muffin.wayland.keybindings switch-to-session-12 ['<Primary><Alt>F12']
+org.gnome.desktop.wm.keybindings panel-main-menu ['<Alt>F1']
+org.gnome.desktop.wm.keybindings toggle-maximized ['<Alt>F10']
+```
+
+> 該設定是「`org.cinnamon.desktop.keybindings.wm switch-to-workspace-up ['<Control><Alt>Up', '<Alt>F1']`」這一行。
+
+所以我們可以執行下面指令，來修改綁定。
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Control><Alt>Up']"
+```
+
+執行下面指令，觀看目前「設定值」
+
+``` sh
+gsettings get org.cinnamon.desktop.keybindings.wm switch-to-workspace-up
+```
+
+顯示
+
+```
+['<Control><Alt>Up']
+```
+
+> 若是要恢復成「預設值」，則是執行下面指令
+
+``` sh
+gsettings reset org.cinnamon.desktop.keybindings.wm switch-to-workspace-up
+```
+
+或是執行下面指令
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Control><Alt>Up', '<Alt>F1']"
+```
