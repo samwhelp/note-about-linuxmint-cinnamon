@@ -77,6 +77,6 @@
 | Link | GitHub |
 | ---- | ------ |
 | [Linux Mint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) |
-| [Cinnamon 探索筆記](https://samwhelp.github.io/note-about-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-cinnamon) |
+| [Cinnamon Desktop 探索筆記](https://samwhelp.github.io/note-about-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-cinnamon) |
 | [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
 | [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
