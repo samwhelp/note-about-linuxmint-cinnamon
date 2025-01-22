@@ -20,7 +20,7 @@ parent: 概覽
 
 ## 主題
 
-* [關於「Mouse Button Modifier」](#關於-mouse-button-bodifier)
+* [關於「Mouse Button Modifier」](#關於mouse-button-modifier)
 
 
 
