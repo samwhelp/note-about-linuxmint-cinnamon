@@ -45,7 +45,7 @@ org.gnome.desktop.wm.preferences mouse-button-modifier '<Alt>'
 
 我個人慣用的「Mouse Button Modifier」是「`Win鍵`」。
 
-所以以下我會調整成我順手的操作。
+所以以下我會調整成我順手的操作模式。
 
 
 
