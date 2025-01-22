@@ -138,7 +138,7 @@ org.gnome.desktop.wm.keybindings toggle-maximized ['<Alt>F10']
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Control><Alt>Up']"
 ```
 
-執行下面指令，觀看目前「設定值」
+執行下面指令，觀看目前「設定值」。
 
 ``` sh
 gsettings get org.cinnamon.desktop.keybindings.wm switch-to-workspace-up
