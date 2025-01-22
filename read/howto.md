@@ -1,6 +1,6 @@
 ---
 title: 如何
-nav_order: 7000
+nav_order: 1020
 has_children: true
 ---
 
