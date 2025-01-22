@@ -253,3 +253,81 @@ gsettings set org.cinnamon alttab-switcher-style 'coverflow'
 ``` sh
 gsettings set org.cinnamon alttab-switcher-style 'timeline'
 ```
+
+
+
+
+## 額外探索紀錄
+
+> 以下只是探索過程中，執行過的指令，和顯示結果，紀錄下來提供參考和備忘。
+
+
+> 執行下面指令
+
+``` sh
+dpkg -S /usr/share/applications/cinnamon-settings-windows.desktop
+```
+
+顯示
+
+```
+cinnamon: /usr/share/applications/cinnamon-settings-windows.desktop
+```
+
+
+> 執行下面指令
+
+``` sh
+dpkg -S /usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py
+```
+
+顯示
+
+```
+cinnamon-common: /usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py
+```
+
+
+
+> 執行下面指令
+
+``` sh
+dpkg -L cinnamon-common | grep modules
+```
+
+顯示
+
+```
+/usr/share/cinnamon/cinnamon-settings/modules
+/usr/share/cinnamon/cinnamon-settings/modules/cs_accessibility.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_actions.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_applets.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_backgrounds.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_calendar.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_default.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_desklets.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_desktop.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_display.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_effects.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_extensions.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_fonts.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_general.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_gestures.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_hotcorner.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_info.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_keyboard.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_mouse.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_nightlight.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_notifications.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_panel.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_power.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_privacy.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_screensaver.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_sound.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_startup.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_themes.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_tiling.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_user.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_windows.py
+/usr/share/cinnamon/cinnamon-settings/modules/cs_workspaces.py
+```
