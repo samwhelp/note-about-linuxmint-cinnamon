@@ -11,9 +11,48 @@ parent: 如何
 
 
 
-## 相關設定指令
+## 主題
 
-執行下面指令，將「Mouse Button Modifier」設定「Super鍵」，也就是「Win鍵」。
+* [前提](#前提)
+* [調整設定指令](#調整設定指令)
+* [相關議題](#相關議題)
+* [相關應用](#相關應用)
+* [相關連結](#相關連結)
+
+
+
+
+## 前提
+
+在「Cinnamon Desktop」，預設是將「Mouse Button Modifier」設定為「`Alt鍵`」。
+
+可以執行下面指令，找到該設定。
+
+``` sh
+gsettings list-recursively | grep "'<Alt>'"
+```
+
+
+顯示類似如下
+
+```
+org.cinnamon.desktop.wm.preferences mouse-button-modifier '<Alt>'
+org.cinnamon.desktop.wm.preferences mouse-button-zoom-modifier '<Alt>'
+org.gnome.desktop.wm.preferences mouse-button-modifier '<Alt>'
+```
+
+> 該設定是「`org.cinnamon.desktop.wm.preferences mouse-button-modifier '<Alt>'`」這一行。
+
+我個人慣用的「Mouse Button Modifier」是「`Win鍵`」。
+
+所以以下我會調整成我順手的操作。
+
+
+
+
+## 調整設定指令
+
+執行下面指令，將「Mouse Button Modifier」設定「`Super鍵`」，也就是「`Win鍵`」。
 
 ``` sh
 gsettings set org.cinnamon.desktop.wm.preferences mouse-button-modifier "'<Super>'"
@@ -25,7 +64,7 @@ gsettings set org.cinnamon.desktop.wm.preferences mouse-button-modifier "'<Super
 gsettings set org.cinnamon.desktop.wm.preferences resize-with-right-button true
 ```
 
-執行上面兩個指令後，就可以[在視窗操作下面兩個動作](https://samwhelp.github.io/note-about-cinnamon/read/config/mousebind.html#視窗內容區塊)，
+執行上面兩個指令後，就可以[在視窗操作下面兩個動作](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/config/mousebind.html#視窗內容區塊)，
 
 | 滑鼠按鍵組合                |  功能                   |
 | --------------------------- | ----------------------- |
@@ -33,17 +72,15 @@ gsettings set org.cinnamon.desktop.wm.preferences resize-with-right-button true
 | `Win + [滑鼠右鍵按住拖曳]`  | 視窗更改大小            |
 
 
-
-
-另外因為我慣用「Win鍵」的「按鍵組合」來操作一些「視窗動作」，
+另外因為我慣用「`Win鍵`」的「按鍵組合」來操作一些「視窗動作」，
 
 例如「`Win + q` => 視窗關閉」，「`Win + m` => 視窗最大化」。
 
-預設按下「Win鍵」會觸發「顯示Menu」，
+在「Cinnamon Desktop」，預設按下「`Win鍵`」會觸發「顯示Menu」，
 
 為了避免無謂的干擾，我會停用這個功能，
 
-請參考「[停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-cinnamon/read/howto/disable-keybind-open-menu.html)」這篇的說明。
+請參考『[停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-menu.html)』這篇的說明。
 
 
 
@@ -52,8 +89,10 @@ gsettings set org.cinnamon.desktop.wm.preferences resize-with-right-button true
 
 | 相關議題 |
 | ------- |
-| [滑鼠按鍵綁定](https://samwhelp.github.io/note-about-cinnamon/read/config/mousebind.html#視窗內容區塊) |
-| [停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-cinnamon/read/howto/disable-keybind-open-menu.html) |
+| [滑鼠按鍵綁定](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/config/mousebind.html#視窗內容區塊) |
+| [停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-menu.html) |
+
+
 
 
 ## 相關應用
@@ -61,8 +100,9 @@ gsettings set org.cinnamon.desktop.wm.preferences resize-with-right-button true
 * Menu Applet 開發筆記 / [demo-mouse-button-modifier](https://samwhelp.github.io/note-about-menu-applet/read/demo/demo-mouse-button-modifier.html#cinnamon)
 
 
+
+
 ## 相關連結
 
 * Arch Wiki / Cinnamon / [Resize windows by mouse](https://wiki.archlinux.org/title/cinnamon#Resize_windows_by_mouse)
 * Arch Wiki / GNOME / [Resize windows by mouse](https://wiki.archlinux.org/title/GNOME#Resize_windows_by_mouse)
-
