@@ -13,9 +13,10 @@
 ## 主題
 
 * [微調腳本](#微調腳本)
-* [佈景主題](#佈景主題)
-* [按鍵綁定](#按鍵綁定)
+* [概覽](#概覽)
 * [如何](#如何)
+* [按鍵綁定](#按鍵綁定)
+* [佈景主題](#佈景主題)
 * [相關筆記](#相關筆記)
 
 
@@ -30,21 +31,12 @@
 
 
 
-## 佈景主題
+## 概覽
 
-| 佈景主題 |
-| -------- |
-| [設定採用「GURB 佈景主題」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/subject/grub.html) |
-
-
-
-
-## 按鍵綁定
-
-| 按鍵綁定 |
-| ------- |
-| [鍵盤按鍵綁定](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/config/keybind.html) |
-| [滑鼠按鍵綁定](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/config/mousebind.html) |
+| [概覽](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/guide.html) |
+| ----------------- |
+| [如何微調](https://samwhelp.github.io/note-about-lingmo/read/guide/customize.html) |
+| [工作流程](https://samwhelp.github.io/note-about-lingmo/read/guide/workflow.html) |
 
 
 
@@ -59,11 +51,30 @@
 
 
 
+## 按鍵綁定
+
+| 按鍵綁定 |
+| ------- |
+| [鍵盤按鍵綁定](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/config/keybind.html) |
+| [滑鼠按鍵綁定](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/config/mousebind.html) |
+
+
+
+
+## 佈景主題
+
+| 佈景主題 |
+| -------- |
+| [設定採用「GURB 佈景主題」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/subject/grub.html) |
+
+
+
+
 ## 相關筆記
 
 | Link | GitHub |
 | ---- | ------ |
 | [LinuxMint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) |
+| [Cinnamon 探索筆記](https://samwhelp.github.io/note-about-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-cinnamon) |
 | [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
 | [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
-| [Cinnamon 探索筆記](https://samwhelp.github.io/note-about-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-cinnamon) |
