@@ -23,5 +23,5 @@ has_children: true
 
 | 按鍵綁定 |
 | ------- |
-| [鍵盤按鍵綁定](https://samwhelp.github.io/note-about-cinnamon/read/config/keybind.html) |
-| [滑鼠按鍵綁定](https://samwhelp.github.io/note-about-cinnamon/read/config/mousebind.html) |
+| [鍵盤按鍵綁定](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/config/keybind.html) |
+| [滑鼠按鍵綁定](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/config/mousebind.html) |
