@@ -33,7 +33,7 @@ parent: 概覽
 
 所以我會[調整成我順手的操作模式](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-mouse-button-modifier.html)。
 
-這樣我就可以透過「`[鍵盤Win鍵] + [滑鼠左鍵按住拖曳]`」來操作「`視窗移動`」
+這樣我就可以透過「`[鍵盤Win鍵] + [滑鼠左鍵按住拖曳]`」來操作「`視窗移動`」，
 
 透過透過「`[鍵盤Win鍵] + [滑鼠右鍵按住拖曳]`」來操作「`視窗更改大小`」。
 
