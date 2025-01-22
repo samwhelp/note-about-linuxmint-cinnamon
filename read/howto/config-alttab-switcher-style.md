@@ -83,7 +83,7 @@ grep 'alttab-switcher-style' /usr/share/glib-2.0/schemas/org.cinnamon.gschema.xm
 
 ## 設定方式
 
-### 圖形介面操作
+## 圖形介面操作
 
 執行
 
@@ -139,15 +139,15 @@ cinnamon-settings windows -t alttab
 
 可以看到一個設定項目「`Alt-Tab Switcher Style`」，有「下拉選單」可以選取，其中的「選項列表」如下
 
-| 選項                      　 | 設定值              |
-| ---------------------------- | ------------------- |
-| `Icons only` 　　　          | `icons`             |
-| `Thumbnails only`            | `thumbnails`        |
-| `Icons and thumbnails`       | `icons+thumbnails`  |
-| `Icons and window preview`   | `icons+preview"`    |
-| `Window preview (no icons)`  | `preview`           |
-| `Coverflow (3D)`             | `coverflow`         |
-| `Timeline (3D)`              | `timeline`          |
+| 選項                      　 | 設定值              | 指令設定範例                      |
+| ---------------------------- | ------------------- | --------------------------------- |
+| `Icons only` 　　　          | `icons`             | [指令設定範例](#icons)            |
+| `Thumbnails only`            | `thumbnails`        | [指令設定範例](#thumbnails)       |
+| `Icons and thumbnails`       | `icons+thumbnails`  | [指令設定範例](#iconsthumbnails)  |
+| `Icons and window preview`   | `icons+preview"`    | [指令設定範例](#iconspreview)     |
+| `Window preview (no icons)`  | `preview`           | [指令設定範例](#preview)          |
+| `Coverflow (3D)`             | `coverflow`         | [指令設定範例](#coverflow)        |
+| `Timeline (3D)`              | `timeline`          | [指令設定範例](#timeline)         |
 
 
 > 只要從「下拉選單」選擇你想呈現「切換時的視覺效果」就可以設定成功了。
@@ -155,14 +155,14 @@ cinnamon-settings windows -t alttab
 
 
 
-### 指令操作
+## 指令操作
 
 > 根據上面的「選項列表」，就可以透過指令操作，參考下面範例
 
 
 
 
-#### icons
+### icons
 
 > 執行下面指令，設定成「`Icons only`」。
 
@@ -191,7 +191,7 @@ gsettings reset org.cinnamon alttab-switcher-style
 
 
 
-#### thumbnails
+### thumbnails
 
 > 執行下面指令，設定成「`Thumbnails only`」。
 
@@ -202,7 +202,7 @@ gsettings set org.cinnamon alttab-switcher-style 'thumbnails'
 
 
 
-#### icons+thumbnails
+### icons+thumbnails
 
 > 執行下面指令，設定成「`Icons and thumbnails`」。
 
@@ -213,7 +213,7 @@ gsettings set org.cinnamon alttab-switcher-style 'icons+thumbnails'
 
 
 
-#### icons+preview
+### icons+preview
 
 > 執行下面指令，設定成「`Icons and window preview`」。
 
@@ -224,7 +224,7 @@ gsettings set org.cinnamon alttab-switcher-style 'icons+preview'
 
 
 
-#### preview
+### preview
 
 > 執行下面指令，設定成「`Window preview (no icons)`」。
 
@@ -235,7 +235,7 @@ gsettings set org.cinnamon alttab-switcher-style 'preview'
 
 
 
-#### coverflow
+### coverflow
 
 > 執行下面指令，設定成「`Coverflow (3D)`」。
 
@@ -246,7 +246,7 @@ gsettings set org.cinnamon alttab-switcher-style 'coverflow'
 
 
 
-#### timeline
+### timeline
 
 > 執行下面指令，設定成「`Timeline (3D)`」。
 
