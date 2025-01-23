@@ -250,7 +250,7 @@ mod_cinnamon_config_hotcorner () {
 ## ## Tool / Gnome Terminal / Config
 ##
 
-mod_tool_gnome_terminal_config_settings () {
+mod_tool_gnome_terminal_config_portal () {
 
 	mod_tool_gnome_terminal_config_for_preference
 
@@ -360,7 +360,7 @@ mod_cinnamon_config () {
 
 
 
-	mod_tool_gnome_terminal_config_for_profile
+	mod_tool_gnome_terminal_config_portal
 
 
 
