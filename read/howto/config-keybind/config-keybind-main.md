@@ -200,7 +200,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right  "['
 
 ## Overview / Expo
 
-> 原本預設的綁定如下（在『[停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-menu.html#衝突綁定)』）這篇有提到這個設定。
+> 原本預設的綁定如下（在『[停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-menu.html#綁定衝突)』）這篇有提到這個設定。
 
 ```
 org.cinnamon.desktop.keybindings.wm switch-to-workspace-up ['<Control><Alt>Up', '<Alt>F1']
@@ -212,7 +212,7 @@ org.cinnamon.desktop.keybindings.wm switch-to-workspace-up ['<Control><Alt>Up', 
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>grave', '<Control><Alt>Up']"
 ```
 
-> 注意「`Win + grave`」會跟「`Grouped window list / Hot keys / Global hotkey for cycling through thumbnail menus`」衝突綁定，記得要設定移除。
+> 注意「`Win + grave`」會跟「`Grouped window list / Hot keys / Global hotkey for cycling through thumbnail menus`」綁定衝突，記得要設定移除。
 
 
 
