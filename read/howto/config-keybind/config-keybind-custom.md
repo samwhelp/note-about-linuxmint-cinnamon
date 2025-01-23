@@ -28,6 +28,75 @@ grand_parent: 如何
 
 ## 設定範例
 
+``` sh
+
+##
+## ## Clear Old
+##
+
+dconf reset -f /org/cinnamon/desktop/keybindings/custom-keybindings/
+
+
+
+
+##
+## ## Keybind Item
+##
+
+
+## ### Logout
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-logout/name "'System_Logout'"
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-logout/command "'cinnamon-session-quit --logout'"
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-logout/binding "['<Shift><Alt>x']"
+
+
+## ### Shutdown
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-shutdown/name "'System_Shutdown'"
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-shutdown/command "'cinnamon-session-quit --power-off'"
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-shutdown/binding "['<Shift><Alt>z']"
+
+
+## ### System Settings
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-settings/name "'System_Settings'"
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-settings/command "'cinnamon-settings'"
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-settings/binding "['<Shift><Alt>s']"
+
+
+## ### Terminal
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/terminal/name "'Terminal'"
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/terminal/command "'gnome-terminal'"
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/terminal/binding "['<Alt>Return']"
+
+
+## ### File Manager
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/file-manager/name "'File_Manager'"
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/file-manager/command "'nemo'"
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/file-manager/binding "['<Shift><Alt>f']"
+
+
+## ### Text Editor
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/text-editor/name "'Text_Editor'"
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/text-editor/command "'xed'"
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/text-editor/binding "['<Shift><Alt>e']"
+
+
+## ### Web Browser
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/web-browser/name "'Web_Browser'"
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/web-browser/command "'firefox --new-tab about:blank'"
+dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/web-browser/binding "['<Shift><Alt>b']"
+
+
+
+
+##
+## ## Custom Keybindings
+##
+
+gsettings set org.cinnamon.desktop.keybindings custom-list "['__dummy__', 'system-logout', 'system-shutdown', 'system-settings', 'terminal', 'file-manager', 'text-editor', 'web-browser']"
+
+
+```
+
 
 
 
