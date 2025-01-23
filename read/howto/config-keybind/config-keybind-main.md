@@ -32,7 +32,12 @@ grand_parent: 如何
 ## 設定範例
 
 * [Alt-Tab Switcher](#alt-tab-switcher)
-* [ Window / Close](##window--close)
+* [ Window / close](##window--close)
+* [ Window / toggle-maximized](##window--toggle-maximized)
+* [ Window / toggle-fullscreen](##window--toggle-fullscreen)
+* [ Window / show-desktop](##window--show-desktop)
+* [ Window / begin-move](##window--begin-move)
+* [ Window / begin-resize](##window--begin-resize)
 
 
 
@@ -44,7 +49,7 @@ grand_parent: 如何
 
 
 
-## Window / Close
+## Window / close
 
 大部份的桌面環境，預設是綁定「`Alt + F4`」來「關閉視窗」。
 
@@ -69,3 +74,76 @@ gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q', '<Alt>F4']
 ```
 
 > 上面的範例，表示一個功能，可以有多重綁定。
+
+
+
+
+## Window / toggle-maximized
+
+> 執行下面指令，綁定「`Win + w`」來「切換視窗最大化」。
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm toggle-maximized "['<Super>w']"
+```
+
+
+
+
+## Window / toggle-fullscreen
+
+> 執行下面指令，綁定「`Win + f`」來「切換視窗全螢幕」。
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm toggle-fullscreen "['<Super>f']"
+```
+
+
+
+
+
+
+## Window / show-desktop
+
+> 執行下面指令，綁定「`Win + d`」來「切換顯示桌面」。
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm show-desktop "['<Super>d']"
+```
+
+> 在「Linux Mint Cinnamon Desktop」，預設就是綁定「`Win + d`」來「切換顯示桌面」
+
+
+
+
+
+
+## Window / begin-move
+
+> 執行下面指令，綁定「`Win + e`」來切換到「視窗開始移動」狀態。
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm begin-move "['<Super>e']"
+```
+
+> 原本「`Win + e`」已經有綁定功能
+
+```
+org.cinnamon.desktop.keybindings.media-keys home ['<Super>e', 'XF86Explorer']
+```
+
+> 所以執行下面指令，解決「按鍵綁定衝突」
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.media-keys home "['XF86Explorer']"
+```
+
+
+
+
+## Window / begin-resize
+
+> 執行下面指令，綁定「`Win + r`」來切換到「視窗開始更改大小」狀態。
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm begin-resize "['<Super>r']"
+```
