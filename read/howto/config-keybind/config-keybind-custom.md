@@ -16,6 +16,7 @@ grand_parent: 如何
 
 * [前提](#前提)
 * [設定範例](#設定範例)
+* [範例腳本](#範例腳本)
 * [相關案例](#相關案例)
 
 
@@ -108,6 +109,13 @@ echo
 gsettings get org.cinnamon.desktop.keybindings custom-list
 
 ```
+
+
+
+
+## 範例腳本
+
+* [範例腳本](https://github.com/samwhelp/note-about-linuxmint-cinnamon/blob/gh-pages/_demo/scripts/keybind/cinnamon-keybind.sh)
 
 
 

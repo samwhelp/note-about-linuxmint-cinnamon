@@ -17,6 +17,7 @@ grand_parent: 如何
 * [前提](#前提)
 * [設定範例](#設定範例)
 * [統整](#統整)
+* [範例腳本](#範例腳本)
 * [相關案例](#相關案例)
 
 
@@ -430,6 +431,13 @@ gsettings set org.cinnamon.muffin dynamic-workspaces false
 gsettings set org.cinnamon.muffin workspace-cycle true
 
 ```
+
+
+
+
+## 範例腳本
+
+* [範例腳本](https://github.com/samwhelp/note-about-linuxmint-cinnamon/blob/gh-pages/_demo/scripts/keybind/cinnamon-keybind.sh)
 
 
 
