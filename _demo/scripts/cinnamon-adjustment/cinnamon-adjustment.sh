@@ -333,6 +333,92 @@ mod_tool_gnome_terminal_config_for_profile () {
 
 
 ##
+## ## Tool / Nemo / Config
+##
+
+mod_tool_nemo_config () {
+
+
+	gsettings set org.nemo.preferences show-hidden-files true
+
+	gsettings set org.nemo.preferences ignore-view-metadata true
+
+	gsettings set org.nemo.preferences default-folder-viewer 'list-view'
+
+	gsettings set org.nemo.desktop font 'Sans 12'
+
+
+	#return 0
+
+
+	gsettings set org.gtk.Settings.FileChooser show-hidden true
+
+	gsettings set org.gtk.gtk4.Settings.FileChooser show-hidden true
+
+
+	return 0
+}
+
+
+
+
+##
+## ## Tool / Xed / Config
+##
+
+mod_tool_xed_config () {
+
+
+	gsettings set org.x.editor.preferences.editor prefer-dark-theme true
+
+	gsettings set org.x.editor.preferences.editor scheme 'oblivion'
+
+	gsettings set org.x.editor.preferences.editor use-default-font false
+
+	gsettings set org.x.editor.preferences.editor editor-font 'Monospace 14'
+
+	gsettings set org.x.editor.preferences.editor insert-spaces false
+
+	gsettings set org.x.editor.preferences.editor tabs-size 4
+
+	gsettings set org.x.editor.preferences.editor highlight-current-line true
+
+	gsettings set org.x.editor.preferences.editor display-line-numbers true
+
+	gsettings set org.x.editor.preferences.editor display-right-margin true
+
+	gsettings set org.x.editor.preferences.editor right-margin-position 80
+
+	gsettings set org.x.editor.preferences.editor draw-whitespace true
+
+	gsettings set org.x.editor.preferences.editor draw-whitespace-inside true
+
+	gsettings set org.x.editor.preferences.editor draw-whitespace-leading true
+
+	gsettings set org.x.editor.preferences.editor draw-whitespace-newline true
+
+	gsettings set org.x.editor.preferences.editor draw-whitespace-trailing true
+
+	gsettings set org.x.editor.preferences.editor ensure-trailing-newline true
+
+
+
+
+	gsettings set org.x.editor.preferences.ui side-panel-visible true
+
+
+
+
+	gsettings set org.x.editor.plugins.filebrowser terminal-command 'gnome-terminal'
+
+
+	return 0
+}
+
+
+
+
+##
 ## ## Cinnamon / Config
 ##
 
@@ -362,6 +448,9 @@ mod_cinnamon_config () {
 
 	mod_tool_gnome_terminal_config
 
+	mod_tool_nemo_config
+
+	mod_tool_xed_config
 
 
 	echo
