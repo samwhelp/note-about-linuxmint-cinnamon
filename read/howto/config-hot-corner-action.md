@@ -53,7 +53,7 @@ gsettings set org.cinnamon hotcorner-layout "['expo:true:0', 'gnome-terminal:tru
 | 左下 `scale` (目前工作空間/所有視窗預覽)  | 右下 `desktop` (切換顯示桌面)       |
 
 
-> 對照『[設定「主要」的「按鍵綁定」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-keybind/config-keybind-main.html)』這篇提到的
+> 對照『[設定「主要」的「按鍵綁定」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-keybind/config-keybind-main.html#overview--expo)』這篇提到的
 
 | 方位                   | 鍵盤按鍵綁定   |
 | ---------------------- | -------------- |
