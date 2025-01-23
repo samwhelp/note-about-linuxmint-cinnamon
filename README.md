@@ -48,7 +48,8 @@
 | ------- |
 | [設定「Mouse Button Modifier」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-mouse-button-modifier.html) |
 | [停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-menu.html) |
-| [設定「Alt-Tab Switcher Style」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-alttab-switcher-style.html) |
+| [設定「Alt-Tab Switcher Style」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-alttab-switcher/config-alttab-switcher-style.html) |
+| [設定「Alt-Tab Switcher Keybind」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-alttab-switcher/config-alttab-switcher-keybind.html) |
 
 
 

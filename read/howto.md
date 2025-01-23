@@ -24,8 +24,8 @@ has_children: true
 
 | Alt-Tab Switcher |
 | ------- |
-| [設定「Alt-Tab Switcher Style」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-alttab-switcher-style.html) |
-| [設定「Alt-Tab Switcher Style」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-alttab-switcher-style.html) |
+| [設定「Alt-Tab Switcher Style」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-alttab-switcher/config-alttab-switcher-style.html) |
+| [設定「Alt-Tab Switcher Keybind」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-alttab-switcher/config-alttab-switcher-keybind.html) |
 
 
 
