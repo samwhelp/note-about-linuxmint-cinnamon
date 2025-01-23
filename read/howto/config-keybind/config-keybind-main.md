@@ -32,12 +32,12 @@ grand_parent: 如何
 ## 設定範例
 
 * [Alt-Tab Switcher](#alt-tab-switcher)
-* [ Window / close](##window--close)
-* [ Window / toggle-maximized](##window--toggle-maximized)
-* [ Window / toggle-fullscreen](##window--toggle-fullscreen)
-* [ Window / show-desktop](##window--show-desktop)
-* [ Window / begin-move](##window--begin-move)
-* [ Window / begin-resize](##window--begin-resize)
+* [Window / close](##window--close)
+* [Window / toggle-maximized](##window--toggle-maximized)
+* [Window / toggle-fullscreen](##window--toggle-fullscreen)
+* [Window / show-desktop](##window--show-desktop)
+* [Window / begin-move](##window--begin-move)
+* [Window / begin-resize](##window--begin-resize)
 
 
 
@@ -147,3 +147,6 @@ gsettings set org.cinnamon.desktop.keybindings.media-keys home "['XF86Explorer']
 ``` sh
 gsettings set org.cinnamon.desktop.keybindings.wm begin-resize "['<Super>r']"
 ```
+
+
+> 關於「[begin-move](#window--begin-move)」和「[begin-resize](#window--begin-resize)」，可以對照另一篇『[設定「Mouse Button Modifier」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-mouse-button-modifier.html)』提到的用法。
