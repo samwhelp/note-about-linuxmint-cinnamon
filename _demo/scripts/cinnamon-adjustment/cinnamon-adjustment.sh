@@ -9,9 +9,25 @@
 ##
 ## ## Link
 ##
-## * https://github.com/samwhelp/note-about-linuxmint-cinnamon/blob/gh-pages/_demo/scripts/cinnamon-adjustment/cinnamon-adjustment.sh
-## * https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-cinnamon/refs/heads/gh-pages/_demo/scripts/cinnamon-adjustment/cinnamon-adjustment.sh
+## * https://github.com/samwhelp/note-about-linuxmint-cinnamon/blob/gh-pages/_demo/scripts/cinnamon-keybind/cinnamon-keybind.sh
+## * https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-cinnamon/refs/heads/gh-pages/_demo/scripts/cinnamon-keybind/cinnamon-keybind.sh
 ##
+
+
+
+
+##
+## ## Cinnamon / Config / Mouse Button Modifier
+##
+
+mod_cinnamon_config_mouse_button_modifier () {
+
+	gsettings set org.cinnamon.desktop.wm.preferences mouse-button-modifier "'<Super>'"
+
+	gsettings set org.cinnamon.desktop.wm.preferences resize-with-right-button true
+
+	return 0
+}
 
 
 
@@ -192,6 +208,12 @@ mod_cinnamon_config_keybind_custom () {
 }
 
 
+
+
+##
+## ## Cinnamon / Config / Workspace
+##
+
 mod_cinnamon_config_workspace () {
 
 	gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 5
@@ -206,6 +228,14 @@ mod_cinnamon_config_workspace () {
 	return 0
 }
 
+
+
+
+
+##
+## ## Cinnamon / Config
+##
+
 mod_cinnamon_config () {
 
 	echo
@@ -215,11 +245,17 @@ mod_cinnamon_config () {
 	echo
 
 
+
+
+	mod_cinnamon_config_mouse_button_modifier
+
 	mod_cinnamon_config_keybind_main
 
 	mod_cinnamon_config_keybind_custom
 
 	mod_cinnamon_config_workspace
+
+
 
 
 	echo
@@ -231,6 +267,8 @@ mod_cinnamon_config () {
 
 	return 0
 }
+
+
 
 
 ##
