@@ -20,12 +20,12 @@ has_children: true
 
 
 
-## 視覺效果
+## Alt-Tab Switcher
 
-| 視覺效果 |
+| Alt-Tab Switcher |
 | ------- |
 | [設定「Alt-Tab Switcher Style」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-alttab-switcher-style.html) |
-
+| [設定「Alt-Tab Switcher Style」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-alttab-switcher-style.html) |
 
 
 

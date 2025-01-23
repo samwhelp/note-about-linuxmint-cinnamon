@@ -1,8 +1,9 @@
 ---
 title: 設定「Alt-Tab Switcher Style」
-nav_order: 7051
+nav_order: 7010
 has_children: false
-parent: 如何
+parent: 設定「Alt-Tab Switcher」
+grand_parent: 如何
 ---
 
 
