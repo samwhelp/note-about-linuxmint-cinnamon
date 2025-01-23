@@ -39,6 +39,8 @@ grand_parent: 如何
 * [Window / show-desktop](#window--show-desktop)
 * [Window / begin-move](#window--begin-move)
 * [Window / begin-resize](#window--begin-resize)
+* [Overview / switch-to-workspace-up](#overview--switch-to-workspace-up)
+* [Overview / switch-to-workspace-down](#overview--switch-to-workspace-down)
 * [統整](#統整)
 
 
@@ -151,6 +153,47 @@ gsettings set org.cinnamon.desktop.keybindings.wm begin-resize "['<Super>r']"
 
 
 > 關於「[begin-move](#window--begin-move)」和「[begin-resize](#window--begin-resize)」，可以對照另一篇『[設定「Mouse Button Modifier」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-mouse-button-modifier.html)』提到的用法。
+
+
+
+
+## Overview / switch-to-workspace-up
+
+> 原本預設的綁定如下（在『[停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-menu.html#衝突綁定)』）這篇有提到這個設定。
+
+```
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-up ['<Control><Alt>Up', '<Alt>F1']
+```
+
+> 執行下面指令，綁定「`Win + grave`」來切換到「所有工作空間預覽」，也保留原來的「`Ctrl + Alt + Up`」。
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>grave', '<Control><Alt>Up']"
+```
+
+> 注意「`Win + grave`」會跟「`Grouped window list / Hot keys / Global hotkey for cycling through thumbnail menus`」衝突綁定，記得要設定移除。
+
+
+
+
+## Overview / switch-to-workspace-down
+
+> 原本預設的綁定如下
+
+```
+rg.cinnamon.desktop.keybindings.wm switch-to-workspace-down ['<Control><Alt>Down']
+```
+
+> 執行下面指令，綁定「`Win + Tab`」來切換到「目前工作空間/所有視窗預覽」，也保留原來的「`Ctrl + Alt + Down`」。
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>Tab', '<Control><Alt>Down']"
+```
+
+
+
+
+
 
 
 
