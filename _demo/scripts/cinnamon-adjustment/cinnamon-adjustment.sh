@@ -247,6 +247,92 @@ mod_cinnamon_config_hotcorner () {
 
 
 ##
+## ## Tool / Gnome Terminal / Config
+##
+
+mod_tool_gnome_terminal_config_settings () {
+
+	mod_tool_gnome_terminal_config_for_preference
+
+	mod_tool_gnome_terminal_config_for_keybind
+
+	mod_tool_gnome_terminal_config_for_profile
+
+
+	return 0
+}
+
+mod_tool_gnome_terminal_config_for_preference () {
+
+	gsettings set org.gnome.Terminal.Legacy.Settings default-show-menubar false
+
+	return 0
+}
+
+mod_tool_gnome_terminal_config_for_keybind () {
+
+
+	local path="org.gnome.Terminal.Legacy.Keybindings:/org/gnome/terminal/legacy/keybindings/"
+
+
+	gsettings set "${path}" zoom-normal '<Control>0'
+
+	gsettings set "${path}" zoom-out '<Control>minus'
+
+	gsettings set "${path}" zoom-in '<Control>equal'
+
+
+	return 0
+}
+
+mod_tool_gnome_terminal_config_for_profile () {
+
+
+	local profile=$(gsettings get org.gnome.Terminal.ProfilesList default)
+	profile=${profile:1:-1} # remove leading and trailing single quotes
+
+
+	local path="org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/"
+
+
+	gsettings set "${path}" scrollbar-policy 'never'
+
+	gsettings set "${path}" use-theme-colors false
+
+	gsettings set "${path}" use-theme-transparency false
+
+	gsettings set "${path}" use-transparent-background true
+
+	gsettings set "${path}" background-transparency-percent 15
+
+	#gsettings set "${path}" foreground-color 'rgb(255,255,255)'
+
+	gsettings set "${path}" foreground-color 'rgb(170,170,170)'
+
+	gsettings set "${path}" background-color 'rgb(0,0,0)'
+
+	#gsettings set "${path}" use-theme-transparency false
+
+	#gsettings set "${path}" use-transparent-background true
+
+	#gsettings set "${path}" background-transparency-percent 15
+
+	gsettings set "${path}" visible-name 'Default'
+
+	gsettings set "${path}" use-system-font false
+
+	gsettings set "${path}" font 'Monospace 14'
+
+	gsettings set "${path}" scrollback-unlimited true
+
+
+	return 0
+}
+
+
+
+
+##
 ## ## Cinnamon / Config
 ##
 
@@ -271,6 +357,10 @@ mod_cinnamon_config () {
 
 	mod_cinnamon_config_hotcorner
 
+
+
+
+	mod_tool_gnome_terminal_config_for_profile
 
 
 
