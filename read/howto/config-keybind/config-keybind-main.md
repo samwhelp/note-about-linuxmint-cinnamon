@@ -41,10 +41,10 @@ grand_parent: 如何
 * [Window / show-desktop](#window--show-desktop)
 * [Window / begin-move](#window--begin-move)
 * [Window / begin-resize](#window--begin-resize)
-* [Workspace / switch-to-workspace-left](#overview--switch-to-workspace-left)
-* [Workspace / switch-to-workspace-right](#overview--switch-to-workspace-right)
-* [Overview / switch-to-workspace-up](#overview--switch-to-workspace-up)
-* [Overview / switch-to-workspace-down](#overview--switch-to-workspace-down)
+* [Workspace / Previous](#overview--previous)
+* [Workspace / Next](#overview--next)
+* [Overview / Expo](#overview--expo)
+* [Overview / Scale](#overview--scale)
 * [Window / Tiling Move](#window--tiling-move)
 * [Screenshot](#screenshot)
 * [統整](#統整)
@@ -164,7 +164,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm begin-resize "['<Super>r']"
 
 
 
-## Workspace / switch-to-workspace-left
+## Workspace / Previous
 
 > 原本預設的綁定如下
 
@@ -181,7 +181,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-left  "['<
 
 
 
-## Workspace / switch-to-workspace-right
+## Workspace / Next
 
 > 原本預設的綁定如下
 
@@ -198,7 +198,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right  "['
 
 
 
-## Overview / switch-to-workspace-up
+## Overview / Expo
 
 > 原本預設的綁定如下（在『[停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-menu.html#衝突綁定)』）這篇有提到這個設定。
 
@@ -217,7 +217,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Sup
 
 
 
-## Overview / switch-to-workspace-down
+## Overview / Scale
 
 > 原本預設的綁定如下
 
