@@ -48,6 +48,15 @@ has_children: true
 
 
 
+## Hot Corner
+
+| Hot Corner |
+| ---------- |
+| [設定「Hot Corner Action」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-hot-corner-action.html) |
+
+
+
+
 ## 相關連結
 
 * Arch Wiki / GNOME / [Configuration](https://wiki.archlinux.org/title/GNOME#Configuration)

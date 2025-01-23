@@ -52,6 +52,7 @@
 | [設定「Alt-Tab Switcher Keybind」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-alttab-switcher/config-alttab-switcher-keybind.html) |
 | [設定「主要」的「按鍵綁定」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-keybind/config-keybind-main.html) |
 | [設定「自訂」的「按鍵綁定」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-keybind/config-keybind-custom.html) |
+| [設定「Hot Corner Action」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-hot-corner-action.html) |
 
 
 

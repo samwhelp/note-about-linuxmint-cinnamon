@@ -1,7 +1,7 @@
 ---
 title: 設定「Hot Corner Action」
 nav_order: 7050
-has_children: true
+has_children: false
 parent: 如何
 ---
 
