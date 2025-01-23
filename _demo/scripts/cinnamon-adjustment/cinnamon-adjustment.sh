@@ -9,8 +9,8 @@
 ##
 ## ## Link
 ##
-## * https://github.com/samwhelp/note-about-linuxmint-cinnamon/blob/gh-pages/_demo/scripts/cinnamon-keybind/cinnamon-keybind.sh
-## * https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-cinnamon/refs/heads/gh-pages/_demo/scripts/cinnamon-keybind/cinnamon-keybind.sh
+## * https://github.com/samwhelp/note-about-linuxmint-cinnamon/blob/gh-pages/_demo/scripts/cinnamon-adjustment/cinnamon-adjustment.sh
+## * https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-cinnamon/refs/heads/gh-pages/_demo/scripts/cinnamon-adjustment/cinnamon-adjustment.sh
 ##
 
 
