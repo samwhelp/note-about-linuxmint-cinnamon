@@ -161,3 +161,12 @@ gsettings reset org.cinnamon.desktop.keybindings.wm switch-to-workspace-up
 ``` sh
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Control><Alt>Up', '<Alt>F1']"
 ```
+
+
+> 不過為了因應我在『設定「主要」的「按鍵綁定」 / [Overview / Expo](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-keybind/config-keybind-main.html#overview--expo)』提到的。
+
+則是執行下面指令，來修改綁定。
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>grave', '<Control><Alt>Up']"
+```
