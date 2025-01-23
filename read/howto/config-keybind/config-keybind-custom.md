@@ -97,6 +97,18 @@ gsettings set org.cinnamon.desktop.keybindings custom-list "['__dummy__', 'syste
 
 ```
 
+上面設定完後，可以執行下面指令，觀看目前的設定值
+
+``` sh
+
+dconf dump /org/cinnamon/desktop/keybindings/custom-keybindings/
+
+echo
+
+gsettings get org.cinnamon.desktop.keybindings custom-list
+
+```
+
 
 
 
