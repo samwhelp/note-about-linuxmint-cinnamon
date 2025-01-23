@@ -231,6 +231,36 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<S
 
 
 
+## Window / Tiling Move
+
+> 原本預設的綁定如下
+
+```
+org.cinnamon.desktop.keybindings.wm push-tile-down ['<Super>Down']
+org.cinnamon.desktop.keybindings.wm push-tile-left ['<Super>Left']
+org.cinnamon.desktop.keybindings.wm push-tile-right ['<Super>Right']
+org.cinnamon.desktop.keybindings.wm push-tile-up ['<Super>Up']
+```
+
+> 並不需要修改，設定參考指令如下
+
+``` sh
+
+##
+## ## Window / Tiling Move
+##
+
+gsettings set org.cinnamon.desktop.keybindings.wm push-tile-down "['<Super>Down']"
+
+gsettings set org.cinnamon.desktop.keybindings.wm push-tile-left "['<Super>Left']"
+
+gsettings set org.cinnamon.desktop.keybindings.wm push-tile-right "['<Super>Right']"
+
+gsettings set org.cinnamon.desktop.keybindings.wm push-tile-up "['<Super>Up']"
+
+```
+
+
 ## Screenshot
 
 > 執行下面指令，探索關於「`screenshot`」的「按鍵綁定」設定
@@ -341,6 +371,19 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right  "['
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>grave', '<Control><Alt>Up']"
 
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>Tab', '<Control><Alt>Down']"
+
+
+##
+## ## Window / Tiling Move
+##
+
+gsettings set org.cinnamon.desktop.keybindings.wm push-tile-down "['<Super>Down']"
+
+gsettings set org.cinnamon.desktop.keybindings.wm push-tile-left "['<Super>Left']"
+
+gsettings set org.cinnamon.desktop.keybindings.wm push-tile-right "['<Super>Right']"
+
+gsettings set org.cinnamon.desktop.keybindings.wm push-tile-up "['<Super>Up']"
 
 
 ##
