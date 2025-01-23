@@ -24,7 +24,7 @@ parent: 如何
 
 ## 前提
 
-在「Cinnamon Desktop」，預設是將「Mouse Button Modifier」設定為「`Alt鍵`」。
+在「Linux Mint Cinnamon Desktop」，預設是將「Mouse Button Modifier」設定為「`Alt鍵`」。
 
 可以執行下面指令，找到該設定。
 
