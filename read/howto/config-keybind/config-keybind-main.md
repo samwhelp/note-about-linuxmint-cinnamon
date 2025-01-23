@@ -15,7 +15,7 @@ grand_parent: 如何
 ## 主題
 
 * [前提](#前提)
-* [設定方式](#設定方式)
+* [設定範例](#設定範例)
 
 
 
@@ -24,12 +24,15 @@ grand_parent: 如何
 
 延續「[設定「按鍵綁定 (Keybind)」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-keybind.html)」這篇找到的設定，
 
-以下紀錄我常用的「視窗操作按鍵綁定」來當作「設定範例」說明。
+以下紀錄我常用的「視窗操作按鍵綁定」來當作「[設定範例](#設定範例)」說明。
 
 
 
 
-## 設定方式
+## 設定範例
+
+* [Alt-Tab Switcher](#alt-tab-switcher)
+* [ Window / Close](##window--close)
 
 
 
