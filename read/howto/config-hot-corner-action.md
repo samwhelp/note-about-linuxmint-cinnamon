@@ -47,6 +47,23 @@ org.cinnamon hotcorner-layout ['expo:false:0', 'scale:false:0', 'scale:false:0',
 gsettings set org.cinnamon hotcorner-layout "['expo:true:0', 'gnome-terminal:true:0', 'scale:true:0', 'desktop:true:0']"
 ```
 
+| 方位                                      | 方位                                |
+| ----------------------------------------- | ----------------------------------- |
+| 左上 `expo` (所有工作空間預覽)            | 右上 `gnome-terminal` (開啟終端機)  |
+| 左下 `scale` (目前工作空間/所有視窗預覽)  | 右下 `desktop` (切換顯示桌面)       |
+
+
+> 對照『[設定「主要」的「按鍵綁定」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-keybind/config-keybind-main.html)』這篇提到的
+
+| 方位                   | 鍵盤按鍵綁定   |
+| ---------------------- | -------------- |
+| 左上 `expo`            | `Win + grave`  |
+| 左下 `scale`           | `Win + Tab`    |
+| 右上 `gnome-terminal`  | `Alt + Enter`  |
+| 右下 `desktop`         | `Win + d`      |
+
+> 關於「grave」指是「`」，在「Tab鍵」上方的那個「鍵盤按鍵」。
+
 
 
 

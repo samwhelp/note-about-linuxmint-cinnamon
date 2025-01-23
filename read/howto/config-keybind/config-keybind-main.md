@@ -232,12 +232,12 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<S
 ```
 
 
-| 方位        | 按鍵             | 功能                    |
-| ----------- | ---------------- | ----------------------- |
-| 上 (Up)     | `Super + grave`  | `Overview / Expo`       |
-| 下 (Down)   | `Super + Tab`    | `Overview / Scale`      |
-| 左 (Left)   | `Super + a`      | `Workspace / Previous`  |
-| 右 (Right)  | `Super + s`      | `Workspace / Next`      |
+| 方位        | 按鍵           | 功能                    |
+| ----------- | -------------- | ----------------------- |
+| 上 (Up)     | `Win + grave`  | `Overview / Expo`       |
+| 下 (Down)   | `Win + Tab`    | `Overview / Scale`      |
+| 左 (Left)   | `Win + a`      | `Workspace / Previous`  |
+| 右 (Right)  | `Win + s`      | `Workspace / Next`      |
 
 > 關於「grave」指是「`」，在「Tab鍵」上方的那個「鍵盤按鍵」。
 
