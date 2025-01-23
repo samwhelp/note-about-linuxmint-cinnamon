@@ -39,6 +39,8 @@ grand_parent: 如何
 * [Window / show-desktop](#window--show-desktop)
 * [Window / begin-move](#window--begin-move)
 * [Window / begin-resize](#window--begin-resize)
+* [Workspace / switch-to-workspace-left](#overview--switch-to-workspace-left)
+* [Workspace / switch-to-workspace-right](#overview--switch-to-workspace-right)
 * [Overview / switch-to-workspace-up](#overview--switch-to-workspace-up)
 * [Overview / switch-to-workspace-down](#overview--switch-to-workspace-down)
 * [統整](#統整)
@@ -157,6 +159,40 @@ gsettings set org.cinnamon.desktop.keybindings.wm begin-resize "['<Super>r']"
 
 
 
+## Workspace / switch-to-workspace-left
+
+> 原本預設的綁定如下
+
+```
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-left ['<Control><Alt>Left']
+```
+
+> 執行下面指令，綁定「`Alt + a`」來切換到「`上一個工作空間`」，也保留原來的「`Ctrl + Alt + Left`」。
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-left  "['<Alt>a', '<Control><Alt>Left']"
+```
+
+
+
+
+## Workspace / switch-to-workspace-right
+
+> 原本預設的綁定如下
+
+```
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-right ['<Control><Alt>Right']
+```
+
+> 執行下面指令，綁定「`Alt + s`」來切換到「`下一個工作空間`」，也保留原來的「`Ctrl + Alt + Right`」。
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right  "['<Alt>s', '<Control><Alt>Right']"
+```
+
+
+
+
 ## Overview / switch-to-workspace-up
 
 > 原本預設的綁定如下（在『[停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-menu.html#衝突綁定)』）這篇有提到這個設定。
@@ -181,7 +217,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Sup
 > 原本預設的綁定如下
 
 ```
-rg.cinnamon.desktop.keybindings.wm switch-to-workspace-down ['<Control><Alt>Down']
+org.cinnamon.desktop.keybindings.wm switch-to-workspace-down ['<Control><Alt>Down']
 ```
 
 > 執行下面指令，綁定「`Win + Tab`」來切換到「目前工作空間/所有視窗預覽」，也保留原來的「`Ctrl + Alt + Down`」。
@@ -189,11 +225,6 @@ rg.cinnamon.desktop.keybindings.wm switch-to-workspace-down ['<Control><Alt>Down
 ``` sh
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>Tab', '<Control><Alt>Down']"
 ```
-
-
-
-
-
 
 
 
@@ -237,6 +268,24 @@ gsettings set org.cinnamon.desktop.keybindings.wm begin-resize "['<Super>r']"
 gsettings set org.cinnamon.desktop.keybindings.wm switch-windows-backward "['<Super>a']"
 
 gsettings set org.cinnamon.desktop.keybindings.wm switch-windows "['<Super>s']"
+
+
+##
+## ## Workspace / Switch
+##
+
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-left  "['<Alt>a', '<Control><Alt>Left']"
+
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right  "['<Alt>s', '<Control><Alt>Right']"
+
+
+##
+## ## Overview / Switch
+##
+
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>grave', '<Control><Alt>Up']"
+
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>Tab', '<Control><Alt>Down']"
 
 ```
 
