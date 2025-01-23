@@ -115,7 +115,7 @@ gsettings get org.cinnamon.desktop.keybindings custom-list
 
 ## 範例腳本
 
-* [範例腳本](https://github.com/samwhelp/note-about-linuxmint-cinnamon/tree/gh-pages/_demo/scripts/keybind)
+* [範例腳本](https://github.com/samwhelp/note-about-linuxmint-cinnamon/tree/gh-pages/_demo/scripts/cinnamon-keybind)
 
 
 
