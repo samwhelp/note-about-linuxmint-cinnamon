@@ -1,7 +1,7 @@
 ---
 title: 設定「Alt-Tab Switcher」
 nav_order: 7040
-has_children: false
+has_children: true
 parent: 如何
 ---
 
