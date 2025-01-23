@@ -290,6 +290,23 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<S
 ```
 
 
+> 另外關於「Workspace」，我會做額外如下的設定
+
+
+``` sh
+
+gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 5
+
+gsettings set org.cinnamon.desktop.wm.preferences workspace-names "['File', 'Edit', 'Web', 'Term', 'Misc']"
+
+gsettings set org.cinnamon.muffin dynamic-workspaces false
+
+gsettings set org.cinnamon.muffin workspace-cycle true
+
+```
+
+
+
 
 ## 相關案例
 
