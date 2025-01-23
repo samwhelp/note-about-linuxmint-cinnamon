@@ -437,7 +437,7 @@ gsettings set org.cinnamon.muffin workspace-cycle true
 
 ## 範例腳本
 
-* [範例腳本](https://github.com/samwhelp/note-about-linuxmint-cinnamon/blob/gh-pages/_demo/scripts/keybind/cinnamon-keybind.sh)
+* [範例腳本](https://github.com/samwhelp/note-about-linuxmint-cinnamon/tree/gh-pages/_demo/scripts/keybind)
 
 
 
