@@ -44,6 +44,7 @@ grand_parent: 如何
 * [Workspace / switch-to-workspace-right](#overview--switch-to-workspace-right)
 * [Overview / switch-to-workspace-up](#overview--switch-to-workspace-up)
 * [Overview / switch-to-workspace-down](#overview--switch-to-workspace-down)
+* [Screenshot](#screenshot)
 * [統整](#統整)
 
 
@@ -230,6 +231,59 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<S
 
 
 
+## Screenshot
+
+> 執行下面指令，探索關於「`screenshot`」的「按鍵綁定」設定
+
+``` sh
+gsettings list-recursively | grep org.cinnamon.desktop.keybindings.media-keys | grep screenshot
+```
+
+顯示
+
+```
+org.cinnamon.desktop.keybindings.media-keys area-screenshot ['<Shift>Print']
+org.cinnamon.desktop.keybindings.media-keys area-screenshot-clip ['<Control><Shift>Print']
+org.cinnamon.desktop.keybindings.media-keys screenshot ['Print']
+org.cinnamon.desktop.keybindings.media-keys screenshot-clip ['<Control>Print']
+org.cinnamon.desktop.keybindings.media-keys window-screenshot ['<Alt>Print']
+org.cinnamon.desktop.keybindings.media-keys window-screenshot-clip ['<Control><Alt>Print']
+```
+
+
+> 執行下面指令，修改關於「`screenshot`」的「按鍵綁定」設定
+
+``` sh
+
+##
+## ## Screenshot
+##
+
+gsettings set org.cinnamon.desktop.keybindings.media-keys screenshot "['Print']"
+
+gsettings set org.cinnamon.desktop.keybindings.media-keys screenshot-clip "['<Shift>Print']"
+
+
+##
+## ## Screenshot / Window
+##
+
+gsettings set org.cinnamon.desktop.keybindings.media-keys window-screenshot "['<Super>Print']"
+
+gsettings set org.cinnamon.desktop.keybindings.media-keys window-screenshot-clip "['<Alt><Super>Print']"
+
+
+##
+## ## Screenshot / Area
+##
+
+gsettings set org.cinnamon.desktop.keybindings.media-keys area-screenshot "['<Control>Print']"
+
+gsettings set org.cinnamon.desktop.keybindings.media-keys area-screenshot-clip "['<Alt><Control>Print']"
+
+
+```
+
 ## 統整
 
 > 統整以上提到的綁定
@@ -287,6 +341,34 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right  "['
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>grave', '<Control><Alt>Up']"
 
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>Tab', '<Control><Alt>Down']"
+
+
+##
+## ## Screenshot
+##
+
+gsettings set org.cinnamon.desktop.keybindings.media-keys screenshot "['Print']"
+
+gsettings set org.cinnamon.desktop.keybindings.media-keys screenshot-clip "['<Shift>Print']"
+
+
+##
+## ## Screenshot / Window
+##
+
+gsettings set org.cinnamon.desktop.keybindings.media-keys window-screenshot "['<Super>Print']"
+
+gsettings set org.cinnamon.desktop.keybindings.media-keys window-screenshot-clip "['<Alt><Super>Print']"
+
+
+##
+## ## Screenshot / Area
+##
+
+gsettings set org.cinnamon.desktop.keybindings.media-keys area-screenshot "['<Control>Print']"
+
+gsettings set org.cinnamon.desktop.keybindings.media-keys area-screenshot-clip "['<Alt><Control>Print']"
+
 
 ```
 
