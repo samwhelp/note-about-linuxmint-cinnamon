@@ -237,7 +237,7 @@ mod_cinnamon_config_workspace () {
 
 mod_cinnamon_config_hotcorner () {
 
-	gsettings set org.cinnamon hotcorner-layout "['expo:true:0', 'sakura:true:0', 'scale:true:0', 'desktop:true:0']"
+	gsettings set org.cinnamon hotcorner-layout "['expo:true:0', 'gnome-terminal:true:0', 'scale:true:0', 'desktop:true:0']"
 
 
 	return 0
