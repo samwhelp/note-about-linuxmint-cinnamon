@@ -16,6 +16,7 @@ grand_parent: 如何
 
 * [前提](#前提)
 * [設定範例](#設定範例)
+* [相關案例](#相關案例)
 
 
 
@@ -38,7 +39,7 @@ grand_parent: 如何
 * [Window / show-desktop](#window--show-desktop)
 * [Window / begin-move](#window--begin-move)
 * [Window / begin-resize](#window--begin-resize)
-
+* [統整](#統整)
 
 
 
@@ -150,3 +151,55 @@ gsettings set org.cinnamon.desktop.keybindings.wm begin-resize "['<Super>r']"
 
 
 > 關於「[begin-move](#window--begin-move)」和「[begin-resize](#window--begin-resize)」，可以對照另一篇『[設定「Mouse Button Modifier」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-mouse-button-modifier.html)』提到的用法。
+
+
+
+
+## 統整
+
+統整以上提到的
+
+``` sh
+
+##
+## ## Fix
+##
+
+gsettings set org.cinnamon.desktop.keybindings.media-keys home "['XF86Explorer']"
+
+gsettings set org.cinnamon.desktop.keybindings show-desklets "[]"
+
+
+##
+## ## Window
+##
+
+gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q']"
+
+gsettings set org.cinnamon.desktop.keybindings.wm toggle-maximized "['<Super>w']"
+
+gsettings set org.cinnamon.desktop.keybindings.wm toggle-fullscreen "['<Super>f']"
+
+gsettings set org.cinnamon.desktop.keybindings.wm show-desktop "['<Super>d']"
+
+gsettings set org.cinnamon.desktop.keybindings.wm begin-move "['<Super>e']"
+
+gsettings set org.cinnamon.desktop.keybindings.wm begin-resize "['<Super>r']"
+
+
+##
+## ## Window / Switch
+##
+
+gsettings set org.cinnamon.desktop.keybindings.wm switch-windows-backward "['<Super>a']"
+
+gsettings set org.cinnamon.desktop.keybindings.wm switch-windows "['<Super>s']"
+
+```
+
+
+
+## 相關案例
+
+* [cinnamon-keybind-main](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
+* [/usr/share/glib-2.0/schemas/50_cinnamon-keybind-main.gschema.override](https://github.com/samwhelp/lika-live-build-respin-cinnamon/blob/main/asset/overlay/usr/share/glib-2.0/schemas/50_cinnamon-keybind-main.gschema.override)
