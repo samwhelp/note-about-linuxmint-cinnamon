@@ -11,6 +11,26 @@ grand_parent: 如何
 
 
 
+
+## 主題
+
+* [前提](#前提)
+* [設定範例](#設定範例)
+* [相關案例](#相關案例)
+
+
+
+
+## 前提
+
+
+
+
+## 設定範例
+
+
+
+
 ## 相關案例
 
 * [cinnamon-keybind-custom](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-custom/config-install.sh)
