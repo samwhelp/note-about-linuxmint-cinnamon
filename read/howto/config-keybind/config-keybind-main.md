@@ -290,7 +290,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<S
 ```
 
 
-> 另外關於「Workspace」，我會做額外如下的設定
+> 另外關於「Workspace」，我會做如下的額外設定
 
 
 ``` sh
