@@ -157,7 +157,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm begin-resize "['<Super>r']"
 
 ## 統整
 
-統整以上提到的
+> 統整以上提到的綁定
 
 ``` sh
 
