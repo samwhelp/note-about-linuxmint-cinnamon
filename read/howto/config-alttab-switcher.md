@@ -13,15 +13,14 @@ parent: 如何
 
 ## 主題
 
-* [前提](#前提)
-* [設定方式](#設定方式)
+* [Alt-Tab Switcher](#alt-tab-switcher)
 
 
 
 
-## 前提
+## Alt-Tab Switcher
 
-
-
-
-## 設定方式
+| Alt-Tab Switcher |
+| ---------------- |
+| [設定「Alt-Tab Switcher Style」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-alttab-switcher/config-alttab-switcher-style.html) |
+| [設定「Alt-Tab Switcher Keybind」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-alttab-switcher/config-alttab-switcher-keybind.html) |
