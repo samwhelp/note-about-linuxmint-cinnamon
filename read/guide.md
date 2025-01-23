@@ -9,4 +9,5 @@ has_children: true
 
 | 概覽 |
 | ----- |
-| [如何微調](guide/customize) |
+| [如何微調](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/guide/customize.html) |
+| [工作流程](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/guide/workflow.html) |
