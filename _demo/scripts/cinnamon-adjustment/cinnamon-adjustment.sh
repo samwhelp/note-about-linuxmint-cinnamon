@@ -210,7 +210,7 @@ mod_cinnamon_config () {
 
 	echo
 	echo "##"
-	echo "## ## Cinnamon Config / Start"
+	echo "## ## Cinnamon Config / Adjustment / Start"
 	echo "##"
 	echo
 
@@ -224,7 +224,7 @@ mod_cinnamon_config () {
 
 	echo
 	echo "##"
-	echo "## ## Cinnamon Config / Done"
+	echo "## ## Cinnamon Config / Adjustment / Done"
 	echo "##"
 	echo
 
