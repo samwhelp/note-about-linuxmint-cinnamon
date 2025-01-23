@@ -32,12 +32,12 @@ grand_parent: 如何
 ## 設定範例
 
 * [Alt-Tab Switcher](#alt-tab-switcher)
-* [Window / close](##window--close)
-* [Window / toggle-maximized](##window--toggle-maximized)
-* [Window / toggle-fullscreen](##window--toggle-fullscreen)
-* [Window / show-desktop](##window--show-desktop)
-* [Window / begin-move](##window--begin-move)
-* [Window / begin-resize](##window--begin-resize)
+* [Window / close](#window--close)
+* [Window / toggle-maximized](#window--toggle-maximized)
+* [Window / toggle-fullscreen](#window--toggle-fullscreen)
+* [Window / show-desktop](#window--show-desktop)
+* [Window / begin-move](#window--begin-move)
+* [Window / begin-resize](#window--begin-resize)
 
 
 
