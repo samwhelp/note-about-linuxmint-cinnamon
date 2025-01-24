@@ -20,7 +20,7 @@
 ## ## Cinnamon / Config / Mouse Button Modifier
 ##
 
-mod_cinnamon_config_mouse_button_modifier () {
+mod_cinnamon_config_for_mouse_button_modifier () {
 
 	gsettings set org.cinnamon.desktop.wm.preferences mouse-button-modifier "'<Super>'"
 
@@ -36,7 +36,7 @@ mod_cinnamon_config_mouse_button_modifier () {
 ## ## Cinnamon / Config / Keybind
 ##
 
-mod_cinnamon_config_keybind_main () {
+mod_cinnamon_config_for_keybind_main () {
 
 
 	##
@@ -136,7 +136,7 @@ mod_cinnamon_config_keybind_main () {
 }
 
 
-mod_cinnamon_config_keybind_custom () {
+mod_cinnamon_config_for_keybind_custom () {
 
 
 	##
@@ -214,7 +214,7 @@ mod_cinnamon_config_keybind_custom () {
 ## ## Cinnamon / Config / Workspace
 ##
 
-mod_cinnamon_config_workspace () {
+mod_cinnamon_config_for_workspace () {
 
 	gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 5
 
@@ -235,7 +235,7 @@ mod_cinnamon_config_workspace () {
 ## ## Cinnamon / Config / Hot Corner
 ##
 
-mod_cinnamon_config_hotcorner () {
+mod_cinnamon_config_for_hotcorner () {
 
 	gsettings set org.cinnamon hotcorner-layout "['expo:true:0', 'gnome-terminal:true:0', 'scale:true:0', 'desktop:true:0']"
 
@@ -424,6 +424,36 @@ mod_tool_xed_config () {
 
 mod_cinnamon_config () {
 
+
+	mod_cinnamon_config_for_mouse_button_modifier
+
+	mod_cinnamon_config_for_keybind_main
+
+	mod_cinnamon_config_for_keybind_custom
+
+	mod_cinnamon_config_for_workspace
+
+	mod_cinnamon_config_for_hotcorner
+
+
+	return 0
+}
+
+mod_tool_config () {
+
+	mod_tool_gnome_terminal_config
+
+	mod_tool_nemo_config
+
+	mod_tool_xed_config
+
+
+	return 0
+}
+
+mod_config_portal () {
+
+
 	echo
 	echo "##"
 	echo "## ## Cinnamon Config / Adjustment / Start"
@@ -433,24 +463,11 @@ mod_cinnamon_config () {
 
 
 
-	mod_cinnamon_config_mouse_button_modifier
+	mod_cinnamon_config
 
-	mod_cinnamon_config_keybind_main
-
-	mod_cinnamon_config_keybind_custom
-
-	mod_cinnamon_config_workspace
-
-	mod_cinnamon_config_hotcorner
+	mod_tool_config
 
 
-
-
-	mod_tool_gnome_terminal_config
-
-	mod_tool_nemo_config
-
-	mod_tool_xed_config
 
 
 	echo
@@ -462,8 +479,6 @@ mod_cinnamon_config () {
 
 	return 0
 }
-
-
 
 
 ##
