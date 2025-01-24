@@ -247,8 +247,6 @@ mod_cinnamon_config () {
 
 	mod_cinnamon_config_for_workspace
 
-	mod_cinnamon_config_for_hotcorner
-
 
 	return 0
 }
