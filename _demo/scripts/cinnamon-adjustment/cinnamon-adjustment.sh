@@ -498,7 +498,7 @@ mod_config_portal () {
 
 __main__ () {
 
-	mod_cinnamon_config
+	mod_config_portal
 
 	return 0
 }
