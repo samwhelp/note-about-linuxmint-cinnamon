@@ -348,7 +348,16 @@ mod_tool_nemo_config () {
 	gsettings set org.nemo.desktop font 'Sans 12'
 
 
+
+
+	gsettings set org.nemo.preferences show-open-in-terminal-toolbar true
+
+
+
+
 	#return 0
+
+
 
 
 	gsettings set org.gtk.Settings.FileChooser show-hidden true
