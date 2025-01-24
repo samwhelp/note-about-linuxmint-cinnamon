@@ -20,7 +20,7 @@
 ## ## Cinnamon / Config / Mouse Button Modifier
 ##
 
-mod_cinnamon_config_mouse_button_modifier () {
+mod_cinnamon_config_for_mouse_button_modifier () {
 
 	gsettings set org.cinnamon.desktop.wm.preferences mouse-button-modifier "'<Super>'"
 
@@ -36,7 +36,7 @@ mod_cinnamon_config_mouse_button_modifier () {
 ## ## Cinnamon / Config / Keybind
 ##
 
-mod_cinnamon_config_keybind_main () {
+mod_cinnamon_config_for_keybind_main () {
 
 
 	##
@@ -136,7 +136,7 @@ mod_cinnamon_config_keybind_main () {
 }
 
 
-mod_cinnamon_config_keybind_custom () {
+mod_cinnamon_config_for_keybind_custom () {
 
 
 	##
@@ -214,7 +214,7 @@ mod_cinnamon_config_keybind_custom () {
 ## ## Cinnamon / Config / Workspace
 ##
 
-mod_cinnamon_config_workspace () {
+mod_cinnamon_config_for_workspace () {
 
 	gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 5
 
@@ -238,29 +238,41 @@ mod_cinnamon_config_workspace () {
 
 mod_cinnamon_config () {
 
+
+	mod_cinnamon_config_for_mouse_button_modifier
+
+	mod_cinnamon_config_for_keybind_main
+
+	mod_cinnamon_config_for_keybind_custom
+
+	mod_cinnamon_config_for_workspace
+
+	mod_cinnamon_config_for_hotcorner
+
+
+	return 0
+}
+
+mod_config_portal () {
+
+
 	echo
 	echo "##"
-	echo "## ## Cinnamon Config / Keybind / Start"
+	echo "## ## Cinnamon Config / Adjustment / Start"
 	echo "##"
 	echo
 
 
 
 
-	mod_cinnamon_config_mouse_button_modifier
-
-	mod_cinnamon_config_keybind_main
-
-	mod_cinnamon_config_keybind_custom
-
-	mod_cinnamon_config_workspace
+	mod_cinnamon_config
 
 
 
 
 	echo
 	echo "##"
-	echo "## ## Cinnamon Config / Keybind / Done"
+	echo "## ## Cinnamon Config / Adjustment / Done"
 	echo "##"
 	echo
 
@@ -277,7 +289,7 @@ mod_cinnamon_config () {
 
 __main__ () {
 
-	mod_cinnamon_config
+	mod_config_portal
 
 	return 0
 }
