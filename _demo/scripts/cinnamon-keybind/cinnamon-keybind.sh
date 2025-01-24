@@ -258,7 +258,7 @@ mod_config_portal () {
 
 	echo
 	echo "##"
-	echo "## ## Cinnamon Config / Adjustment / Start"
+	echo "## ## Cinnamon Config / Keybind / Start"
 	echo "##"
 	echo
 
@@ -272,7 +272,7 @@ mod_config_portal () {
 
 	echo
 	echo "##"
-	echo "## ## Cinnamon Config / Adjustment / Done"
+	echo "## ## Cinnamon Config / Keybind / Done"
 	echo "##"
 	echo
 
