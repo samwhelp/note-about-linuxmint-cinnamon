@@ -200,7 +200,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right  "['
 
 ## Overview / Expo
 
-> 原本預設的綁定如下（在『[停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-menu.html#綁定衝突)』）這篇有提到這個設定。
+> 原本預設的綁定如下（在『[停用按鍵綁定「Super_L」開啟「Main Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-main-menu.html#綁定衝突)』）這篇有提到這個設定。
 
 ```
 org.cinnamon.desktop.keybindings.wm switch-to-workspace-up ['<Control><Alt>Up', '<Alt>F1']

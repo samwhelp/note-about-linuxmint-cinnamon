@@ -1,12 +1,12 @@
 ---
-title: 停用按鍵綁定「Super_L」開啟「Menu」
+title: 停用按鍵綁定「Super_L」開啟「Main Menu」
 nav_order: 7022
 has_children: false
 parent: 如何
 ---
 
 
-# 停用按鍵綁定「Super_L」開啟「Menu」
+# 停用按鍵綁定「Super_L」開啟「Main Menu」
 
 
 ## 主題
@@ -60,7 +60,7 @@ Cinnamon 6.4.6
 
 ### 修改設定檔
 
-按鍵綁定「`Super_L`」開啟「Menu」的設定，
+按鍵綁定「`Super_L`」開啟「Main Menu」的設定，
 
 儲存在「「`~/.config/cinnamon/spices/menu@cinnamon.org/0.json`」這個檔案。
 

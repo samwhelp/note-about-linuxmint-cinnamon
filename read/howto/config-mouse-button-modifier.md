@@ -80,7 +80,7 @@ gsettings set org.cinnamon.desktop.wm.preferences resize-with-right-button true
 
 為了避免無謂的干擾，我會停用這個功能，
 
-請參考『[停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-menu.html)』這篇的說明。
+請參考『[停用按鍵綁定「Super_L」開啟「Main Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-main-menu.html)』這篇的說明。
 
 
 
@@ -90,7 +90,7 @@ gsettings set org.cinnamon.desktop.wm.preferences resize-with-right-button true
 | 相關議題 |
 | ------- |
 | [滑鼠按鍵綁定](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/config/mousebind.html#視窗內容區塊) |
-| [停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-menu.html) |
+| [停用按鍵綁定「Super_L」開啟「Main Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-main-menu.html) |
 
 
 
