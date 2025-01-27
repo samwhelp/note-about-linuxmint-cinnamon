@@ -239,8 +239,10 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<S
 | ----------- | -------------- | ----------------------- |
 | 上 (Up)     | `Win + grave`  | `Overview / Expo`       |
 | 下 (Down)   | `Win + Tab`    | `Overview / Scale`      |
-| 左 (Left)   | `Win + a`      | `Workspace / Previous`  |
-| 右 (Right)  | `Win + s`      | `Workspace / Next`      |
+| 左 (Left)   | `Alt + a`      | `Workspace / Previous`  |
+| 右 (Right)  | `Alt + s`      | `Workspace / Next`      |
+| 左 (Left)   | `Win + a`      | `Window / Previous`     |
+| 右 (Right)  | `Win + s`      | `Window / Next`         |
 
 > 關於「grave」指是「`」，在「Tab鍵」上方的那個「鍵盤按鍵」。
 
@@ -249,6 +251,10 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<S
 > 關於「`Overview / Scale`」，我有設定「`Hot corner / 左下`」觸發。
 
 > 可以對照『[設定「Hot Corner Action」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-hot-corner-action.html)』這篇的說明。
+
+> `Super` for `Window`
+
+> `Control` for `Workspace`
 
 
 
