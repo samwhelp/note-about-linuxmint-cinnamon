@@ -209,7 +209,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right  "['
 org.cinnamon.desktop.keybindings.wm switch-to-workspace-up ['<Control><Alt>Up', '<Alt>F1']
 ```
 
-> 執行下面指令，綁定「`Win + grave`」來切換到「所有工作空間預覽」，也保留原來的「`Ctrl + Alt + Up`」。
+> 執行下面指令，綁定「`Win + grave`」來切換到「所有工作空間概覽」，也保留原來的「`Ctrl + Alt + Up`」。
 
 ``` sh
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>grave', '<Control><Alt>Up']"
@@ -228,7 +228,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Sup
 org.cinnamon.desktop.keybindings.wm switch-to-workspace-down ['<Control><Alt>Down']
 ```
 
-> 執行下面指令，綁定「`Win + Tab`」來切換到「目前工作空間/所有視窗預覽」，也保留原來的「`Ctrl + Alt + Down`」。
+> 執行下面指令，綁定「`Win + Tab`」來切換到「目前工作空間的所有視窗概覽」，也保留原來的「`Ctrl + Alt + Down`」。
 
 ``` sh
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>Tab', '<Control><Alt>Down']"
