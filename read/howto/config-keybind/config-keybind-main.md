@@ -36,13 +36,13 @@ grand_parent: 如何
 
 ## 設定範例
 
-* [Alt-Tab Switcher](#alt-tab-switcher)
 * [Window / Close](#window--close)
 * [Window / Toggle Maximized](#window--toggle-maximized)
 * [Window / Toggle Fullscreen](#window--toggle-fullscreen)
 * [Window / Show Desktop](#window--show-desktop)
 * [Window / Begin Move](#window--begin-move)
 * [Window / Begin Resize](#window--begin-resize)
+* [Alt-Tab Switcher](#alt-tab-switcher)
 * [Workspace / Previous](#workspace--previous)
 * [Workspace / Next](#workspace--next)
 * [Overview / Expo](#overview--expo)
@@ -50,13 +50,6 @@ grand_parent: 如何
 * [Window / Tiling Move](#window--tiling-move)
 * [Screenshot](#screenshot)
 * [統整](#統整)
-
-
-
-
-## Alt-Tab Switcher
-
-> 請參考另一篇『[設定「Alt-Tab Switcher Keybind」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-alttab-switcher/config-alttab-switcher-keybind.html)』的「設定說明」。
 
 
 
@@ -112,8 +105,6 @@ gsettings set org.cinnamon.desktop.keybindings.wm toggle-fullscreen "['<Super>f'
 
 
 
-
-
 ## Window / Show Desktop
 
 > 執行下面指令，綁定「`Win + d`」來「切換顯示桌面」。
@@ -123,8 +114,6 @@ gsettings set org.cinnamon.desktop.keybindings.wm show-desktop "['<Super>d']"
 ```
 
 > 在「Linux Mint Cinnamon Desktop」，預設就是綁定「`Win + d`」來「切換顯示桌面」
-
-
 
 
 
@@ -162,6 +151,13 @@ gsettings set org.cinnamon.desktop.keybindings.wm begin-resize "['<Super>r']"
 
 
 > 關於「[begin-move](#window--begin-move)」和「[begin-resize](#window--begin-resize)」，可以對照另一篇『[設定「Mouse Button Modifier」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-mouse-button-modifier.html)』提到的用法。
+
+
+
+
+## Alt-Tab Switcher
+
+> 請參考另一篇『[設定「Alt-Tab Switcher Keybind」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-alttab-switcher/config-alttab-switcher-keybind.html)』的「設定說明」。
 
 
 
