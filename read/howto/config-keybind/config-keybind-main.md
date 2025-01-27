@@ -252,9 +252,9 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<S
 
 > 可以對照『[設定「Hot Corner Action」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/config-hot-corner-action.html)』這篇的說明。
 
-> `Super` for `Window`
+> `Win` for `Window`
 
-> `Control` for `Workspace`
+> `Alt` for `Workspace`
 
 
 
