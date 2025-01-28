@@ -100,7 +100,7 @@ parent: 一覽表
 | `Win + f`  | 視窗全螢幕                         | `org.cinnamon.desktop.keybindings.wm toggle-fullscreen`           |
 | `Win + w`  | 視窗最大化                         | `org.cinnamon.desktop.keybindings.wm toggle-maximized`             |
 | `Win + x`  | 視窗最小化                         | `org.cinnamon.desktop.keybindings.wm minimize`             |
-| `Win + d`  | 切換顯示桌面                         | `org.mate.Marco.global-keybindings show-desktop`             |
+| `Win + d`  | 切換顯示桌面                         | `org.cinnamon.desktop.keybindings.wm show-desktop`             |
 | `Win + e`  | 開始「視窗移動」                   | `org.cinnamon.desktop.keybindings.wm begin-move`                 |
 | `Win + r`  | 開始「視窗更改大小」               | `org.cinnamon.desktop.keybindings.wm begin-resize`               |
 | `Win + y`  | 視窗內容區塊收合                   | `org.cinnamon.desktop.keybindings.wm toggle-shaded`                |

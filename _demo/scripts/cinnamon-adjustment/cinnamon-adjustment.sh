@@ -356,14 +356,19 @@ mod_tool_nemo_config () {
 
 	gsettings set org.nemo.preferences ignore-view-metadata true
 
-	gsettings set org.nemo.preferences default-folder-viewer 'list-view'
+	gsettings set org.nemo.preferences default-folder-viewer "'list-view'"
 
-	gsettings set org.nemo.desktop font 'Sans 12'
+	gsettings set org.nemo.desktop font "'Sans 12'"
 
 
 
 
 	gsettings set org.nemo.preferences show-open-in-terminal-toolbar true
+
+
+
+
+	gsettings set org.nemo.list-view default-zoom-level "'small'"
 
 
 
