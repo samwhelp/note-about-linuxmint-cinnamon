@@ -105,7 +105,7 @@ parent: 一覽表
 | `Win + r`  | 開始「視窗更改大小」               | `org.cinnamon.desktop.keybindings.wm begin-resize`               |
 | `Win + y`  | 視窗內容區塊收合                   | `org.cinnamon.desktop.keybindings.wm toggle-shaded`                |
 | `Win + t`  | 視窗保持永遠在最上方               | `org.cinnamon.desktop.keybindings.wm toggle-above`  |
-| `Win + z`  | 在最近兩個視窗聚焦切換               | `org.cinnamon.desktop.keybindings.wm raise-or-lower`  |
+| `Win + z`  | 在最近聚焦過的兩個視窗切換               | `org.cinnamon.desktop.keybindings.wm raise-or-lower`  |
 
 
 > 一般預設「`Alt + F4`」綁定「`視窗關閉`」
