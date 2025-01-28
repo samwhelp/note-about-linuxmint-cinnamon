@@ -48,7 +48,7 @@ parent: 一覽表
 
 | 按鍵組合     | 功能                                 | 設定項目                                                |
 | ----------- | ----------------------------------- | ----------------------------------------------------- |
-| `Alt + F1`  | `開啟「應用程式啟動主選單(Main Menu)」`  | 請參考『[停用按鍵綁定「Super_L」開啟「Main Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-ma:in-menu.html)』 |
+| `Alt + F1`  | `開啟「應用程式啟動主選單(Main Menu)」`  | 請參考『[停用按鍵綁定「Super_L」開啟「Main Menu」](https://samwhelp.github.io/note-about-linuxmint-cinnamon/read/howto/disable-keybind-open-main-menu.html)』 |
 | `Alt + F2`  | `開啟「應用程式啟動器(Runner)」`        | `org.cinnamon.desktop.keybindings.wm panel-run-dialog`  |
 
 
