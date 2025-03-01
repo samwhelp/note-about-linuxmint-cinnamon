@@ -6,6 +6,7 @@
 | ---- | ------ |
 | [LinuxMint Cinnamon Adjustment](https://samwhelp.github.io/linuxmint-cinnamon-adjustment/) | [GitHub](https://github.com/samwhelp/linuxmint-cinnamon-adjustment) |
 | [LinuxMint Cinnamon 探索筆記](https://samwhelp.github.io/note-about-linuxmint-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-cinnamon) |
+| [Linux Mint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) |
 
 
 
@@ -71,7 +72,6 @@
 
 | Link | GitHub |
 | ---- | ------ |
-| [Linux Mint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) |
 | [Cinnamon Desktop 探索筆記](https://samwhelp.github.io/note-about-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-cinnamon) |
 | [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
 | [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
