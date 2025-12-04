@@ -31,7 +31,7 @@
 | -------- |
 | [Linux Mint Cinnamon Config](https://github.com/samwhelp/linuxmint-cinnamon-adjustment/tree/main/prototype/main/) |
 | [Tool Config](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype/main/tool-config/part) |
-| [簡易微調](https://github.com/samwhelp/note-about-linuxmint-cinnamon/tree/gh-pages/_demo/scripts/cinnamon-adjustment) |
+| [簡易微調](https://github.com/samwhelp/linuxmint-cinnamon-adjustment/tree/main/demo/scripts/main/cinnamon-adjustment) |
 
 
 
