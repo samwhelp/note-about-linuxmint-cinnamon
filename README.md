@@ -34,6 +34,12 @@
 | [簡易微調](https://github.com/samwhelp/linuxmint-cinnamon-adjustment/tree/main/demo/scripts/main/cinnamon-adjustment) |
 
 
+| Style Management |
+| ---------------- |
+| [demo-style-select](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select) |
+| [make-cinnamon-style](https://github.com/samwhelp/make-cinnamon-style) |
+
+
 
 
 ## 概覽
