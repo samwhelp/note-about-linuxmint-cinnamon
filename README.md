@@ -111,9 +111,12 @@
 | Link | GitHub |
 | ---- | ------ |
 | [Cinnamon Desktop 探索筆記](https://samwhelp.github.io/note-about-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-cinnamon) |
+| [Lmde Cinnamon 探索筆記](https://samwhelp.github.io/note-about-lmde-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-lmde-cinnamon) |
 | [Ubuntu Cinnamon 探索筆記](https://samwhelp.github.io/note-about-ubuntu-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-cinnamon) |
-| [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
-| [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
+| [Debian Cinnamon 探索筆記](https://samwhelp.github.io/note-about-debian-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-debian-cinnamon) |
+| [Fedora Cinnamon 探索筆記](https://samwhelp.github.io/note-about-fedora-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-fedora-cinnamon) |
+| [Archlinux Cinnamon 探索筆記](https://samwhelp.github.io/note-about-archlinux-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-archlinux-cinnamon) |
+| [Voidlinux Cinnamon 探索筆記](https://samwhelp.github.io/note-about-voidlinux-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-voidlinux-cinnamon) |
 
 
 
