@@ -47,9 +47,14 @@
 
 ## Build ISO
 
+| Respin |
+| ------ |
+| [linuxmint-live-custom-respin-cinnamon](https://github.com/samwhelp/linuxmint-live-custom-respin-cinnamon) |
+
+
 | Remix | Respin |
 | ----- | ------ |
-| [linuxmint-iso-builder-remix-cinnamon](https://github.com/samwhelp/linuxmint-iso-builder-remix-cinnamon) | [linuxmint-iso-builder-respin-cinnamon](https://github.com/samwhelp/linuxmint-iso-builder-respin-cinnamon) |
+| [linuxmint-live-create-remix-cinnamon](https://github.com/samwhelp/linuxmint-live-create-remix-cinnamon) | [linuxmint-live-create-respin-cinnamon](https://github.com/samwhelp/linuxmint-live-create-respin-cinnamon) |
 
 
 
